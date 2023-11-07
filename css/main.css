@@ -1,0 +1,206 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  background: #000;
+  color:#fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+}
+
+a {color: #fff;}
+a:hover {color: #fff;}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  position: relative;
+}
+
+.items_center {
+  align-items: center;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.justify_center {
+  justify-content: center;
+}
+
+.flex_wrap {
+  flex-wrap: wrap;
+}
+
+:before {
+  position: absolute;
+  top:0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  content: '';
+  background: url(../img/) 0 0 no-repeat;
+}
+
+.container {
+  max-width: 921px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+button {
+  border:none;
+  background: none;
+  box-shadow: unset;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: unset;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+header {
+  position: relative;
+  padding: 0;
+  border-bottom: 1px solid #3b3b3b;
+  z-index: 2;
+  margin-bottom: 155px;
+}
+
+.logo {
+
+}
+
+
+.menu__top {
+  padding: 20px 0 18px 0;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.menu__top li {
+  padding: 0 46px;
+}
+
+.menu__top li a {
+  text-decoration: none;
+}
+
+.menu__top li a:hover {
+  
+}
+
+
+.head {
+  position: relative;
+  height: 800px;
+}
+
+
+.section__video-bg {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.head__bg {
+  position: relative;
+  z-index: 2;
+  background: url(../images/head-bg.png) 0 0 no-repeat;
+  height: 479px;
+}
+
+.head__block {
+  padding: 116px 0 0 64px;
+  width: 35%;
+}
+
+.head__block2 {
+  width: 65%;
+  padding: 78px 72px 0 111px;
+}
+
+.head__title {
+  font-size: 27px;
+  padding: 0 0 20px 0;
+  margin: 0 0 20px 0;
+  border-bottom: 1px solid #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.head__body {
+  font-size: 17px;
+  margin: 0 0 29px 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.head__link {
+  width: 280px;
+  display: block;
+  text-decoration: none;
+  padding: 15px 0 15px 0;
+  border-radius: 26px;
+  background: #36c2ff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+footer {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
